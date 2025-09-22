@@ -1,0 +1,55 @@
+body{
+    Overflow-x: hidden
+}
+ul li{
+    position: relative;
+    bottom: 10px;
+    float: right;
+    list-style: none;
+    margin: 15px;
+    margin-top: 30px;
+    font-family: Gotham, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif
+}
+ul{
+    display: flex;
+}
+.box1{
+ margin-left: 20px;
+ position: relative;
+ bottom: 10px;
+ float: left;
+}
+.box2{
+ float: inline-end;
+ position: relative;
+ bottom:65px;
+ right:  100px;
+}
+.box3{
+     float: inline-end;
+ position: relative;
+ bottom: 65px;
+ right:  40px;    
+}
+.box4{
+float: inline-end;
+ position: relative;
+ bottom: 62px;
+ left: 20px;
+}
+.box5{
+    position: relative;
+    bottom: 50px;
+    
+}
+.box6{
+    position: relative;
+    bottom: 600px;
+    left: 600px;
+}
+.text1{
+    font-size: 50px;
+    color: white;
+    position: relative;
+    bottom: 900px;
+}
