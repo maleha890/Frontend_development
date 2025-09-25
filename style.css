@@ -13,12 +13,21 @@ ul li{
     margin-top: 30px;
     font-family: Gotham, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif
 }
+.t{
+    color: black;
+}
+.t:hover{
+  color: red;
+             
+}
 ul{
     display: flex;
     position: relative;
     bottom: 70px;
     left: 100px;
 }
+
+
 .main{
     height: 70px;
     width: 100%;
@@ -100,6 +109,11 @@ ul{
    font-weight: 700;
     
 }
+.b:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
 .text4{
     text-align: center;
     font-size: 30px;
@@ -124,8 +138,10 @@ ul{
     transition: ease-in;
 }
 .image1:hover{
-    transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;   
     transform: scale(1.1);
+    background-color: rgba(78, 77, 77, 0.683);
+    
     
 }
 .text5{
@@ -145,6 +161,11 @@ ul{
     width: 80px;
     margin-left: 250px;
 }
+.b1:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
 .box7{
  float: right;
  
@@ -162,7 +183,7 @@ ul{
 .image2:hover{
     transition: all 0.8s ease-in-out;
     transform: scale(1.1);
-    
+    background-color: rgba(78, 77, 77, 0.683);
     
 }
 .tv3{
@@ -180,6 +201,7 @@ ul{
 .image3:hover{
     transition: all 0.8s ease-in-out;
     transform: scale(1.1);
+    background-color: rgba(78, 77, 77, 0.683);
 }
 .text7{
     font-weight: 700;
@@ -194,6 +216,11 @@ ul{
     color: white;
     margin-left: 90px;
     margin-bottom: 10px;
+}
+.b2:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
 }
 .tv4{
     text-align: center;
@@ -220,6 +247,7 @@ ul{
 .image4:hover{
     transition: all 0.8s ease-in-out;
     transform: scale(1.1);
+    background-color: rgba(78, 77, 77, 0.683);
 }   
 .image5{
 
@@ -227,4 +255,215 @@ ul{
 .image5:hover{
     transition: all 0.8s ease-in-out;
     transform: scale(1.1);
+    background-color: rgba(78, 77, 77, 0.683);
 } 
+.box8{
+background-image: url("assets/big1.png" );
+width: 100%;
+height: 800px;
+background-position: center;
+background-size: cover;
+}
+.text8{
+   text-align: center;
+   position: relative;
+   top: 580px;
+   font-size: 30px;
+   color: white;
+   font-family: Gotham, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif;
+   font-weight: 500;
+}
+.text9{
+    text-align: center;
+   position: relative;
+   top: 550px;
+   color: white;
+   font-family: Gotham, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif;
+}
+.b3{
+    text-align: center;
+    border-radius: 30px;
+    height: 30px;
+    width: 120px;
+    padding: 3px;
+    margin: 4px;
+    background-color: red;
+    border:1px solid black;
+    color: white;
+    font-family: Gotham, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif;
+   position: relative;
+   top: 550px;
+   left: 560px;
+   font-weight: 800;
+}
+.b3:hover{
+    color: black;
+}
+.container3{
+    display: flex;
+    width: 100%;
+}
+.box9{
+    background-color: white;
+    width: 380px;
+    height: 500px;
+    margin-left: 30px;
+}
+.image6{
+    height: 200px;
+    width: 380px;
+}
+.image6:hover{
+    transition: all 0.8s ease-in-out;
+    transform: scale(1.1);
+    background-color: rgba(78, 77, 77, 0.683);
+}
+.text10{
+    text-align: end;
+    margin-right: 8px;
+    color: rgb(92, 92, 92);
+    font-family: Gotham, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif;
+}
+.text11{
+    text-align: left;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 10px;
+    font-family: Gotham, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif;
+}
+.b4{
+    text-align: center;
+    border-radius: 30px;
+    width: 120px;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    margin-left: 220px;
+    position:relative;
+    top: 20px;
+    font-weight: 600;
+    font-family: Gotham, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif;
+}
+.b4:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.image7{
+    height: 200px;
+    width: 380px;
+}
+.image7:hover{
+    transition: all 0.8s ease-in-out;
+    transform: scale(1.1);
+    background-color: rgba(78, 77, 77, 0.683);
+}
+.image8{
+    height: 200px;
+    width: 380px;
+}
+.image8:hover{
+    transition: all 0.8s ease-in-out;
+    transform: scale(1.1);
+    background-color: rgba(78, 77, 77, 0.683);
+}
+.b5{
+    text-align: center;
+    border-radius: 30px;
+    width: 120px;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    margin-left: 220px;
+    position:relative;
+    bottom: 15px;
+    font-weight: 600;
+    font-family: Gotham, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif;
+}
+.b5:hover{
+background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.container4{
+    display: flex;
+    width: 100%;
+    height: 550px;
+    background-color: rgb(89, 87, 88);
+    
+}
+.box10{
+    align-items: flex-start;
+}
+.image9{
+    margin: 40px;
+}
+.text12{
+    position: relative;
+    bottom: 40px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    color: white;
+    font-weight: 700;
+    font-family: Gotham, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif;
+}
+.text13{
+    color: white;
+    margin-left: 30px;
+    position: relative;
+    bottom: 50px;
+}
+.box11{
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 40px;
+    color: white;
+    font-family: Gotham, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif;
+}
+.box12{
+    align-items: end;
+    margin-left: 150px;
+    margin-top: 40px;
+    color: white;
+    font-family: Gotham, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif;
+}
+.image10{
+margin-top: 400px;
+position: relative;
+right: 700px;
+height: 82px;
+width: 80px;
+}
+.text14{
+margin-top: 400px;
+position: relative;
+right: 680px;
+color: white; 
+font-family: Gotham, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif;
+font-size: 35px;
+font-weight: 20;
+}
+.text15{
+margin-top: 400px;
+position: relative;
+top: 55px;
+right: 840px;
+color: white; 
+font-family: Gotham, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif;
+}
+.box13{
+    background-color: rgb(89, 87, 88);
+    width: 100%;
+    height: 80px;
+   position: relative;
+   bottom: 15px;
+}
+.text16{
+    color: white;
+    margin-left: 10px;
+    position: relative;
+    top: 20px;
+}
+.footer{
+   margin-left: 1100px;
+}
