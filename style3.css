@@ -1,0 +1,604 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.box{
+    width: 100%;
+    height: 50px;
+    background-color:rgb(250, 250, 252);
+}
+.container{
+    display: flex;
+    list-style: none;
+}
+.nav{
+    position: relative;
+    margin-top: 15px;
+    margin-left: 180px ;
+}
+ .nav1{
+    margin-left: 35px;
+    margin-top:18px ;
+} 
+.nav1 a{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(100, 99, 99);
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    list-style: none;
+    background-color:rgb(250, 250, 252) ;
+    width: 100%;
+    height: 500px;
+}
+.nav1:hover .dropdown{
+    display: block;
+}
+.text{
+    margin-left: 200px;
+    font-weight: 800;
+    font-size: 25px;
+    cursor: pointer;
+}
+.text1{
+     margin-left: 200px;
+     color:rgb(100, 99, 99) ;
+     margin-top: 10px;
+     cursor: context-menu;
+}
+.text2{
+    position: relative;
+    line-height:25px ;
+    bottom: 400px;
+    margin-left: 500px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 550;
+}
+.text3{
+    position: relative;
+    bottom: 395px;
+     margin-left: 495px;
+     color:rgb(100, 99, 99) ;
+     margin-top: 10px;
+     cursor: context-menu;
+}
+.text4{
+    position: relative;
+    line-height:25px ;
+    bottom: 570px;
+    margin-left: 700px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 550;
+}
+.text5{
+    position: relative;
+    bottom: 565px;
+     margin-left: 700px;
+     color:rgb(100, 99, 99) ;
+     margin-top: 10px;
+     cursor: context-menu;
+}
+.img2{
+    margin-left: 35px;
+    margin-top: 15px;
+}
+.img3{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.container2{
+    width: 100%;
+    position: absolute;
+    height: 35px;
+    background-color: rgb(245, 245, 247);
+}
+.p1{
+    margin-top: 7px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(100, 99, 99);
+}
+.a1{
+    text-decoration: none;
+    color: blue;
+}
+.p2{
+    font-size: 80px;
+    font-weight: 600;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.container3{
+    display: flex;
+    margin-left: 90px;
+    margin-top: 80px;
+}
+.images{
+    margin-left: 60px;
+}
+.t1{
+    position: relative;
+    top: 10px;
+    margin-left: 135px;
+    font-weight: bold;
+}
+.t11{
+    position: relative;
+    top: 10px;
+    left: 30px;
+    margin-left: 135px;
+    font-weight: bold;
+    color: rgb(231, 116, 50);
+}
+.t2{
+   position: relative;
+    bottom: 8px;
+    margin-left: 110px;
+    font-weight: bold;
+}
+.t22{
+    position: relative;
+    bottom: 7px;
+    left: 160px;
+    margin-left: 135px;
+    font-weight: bold;
+    color: rgb(231, 116, 50);
+}
+.t3{
+   position: relative;
+    bottom: 26px;
+    margin-left: 250px;
+    font-weight: bold;
+}
+.t33{
+    position: relative;
+    bottom: 26px;
+    left: 295px;
+    margin-left: 135px;
+    font-weight: bold;
+    color: rgb(231, 116, 50);
+}
+.t4{
+    position: relative;
+    bottom: 43px;
+    margin-left: 375px;
+    font-weight: bold;
+}
+.t5{
+    position: relative;
+    bottom: 43px;
+    margin-left: 60px;
+    font-weight: bold;
+}
+.t6{
+    position: relative;
+    bottom: 43px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+.t7{
+    position: relative;
+    bottom: 60px;
+    margin-left: 930px;
+    font-weight: bold;
+}
+.t8{
+    position: relative;
+    bottom: 75px;
+    margin-left: 1080px;
+    font-weight: bold;
+}
+.container4{
+    position: absolute;
+    background-color: rgb(245, 245, 247);
+    width: 100%;
+    height: 450vh;
+}
+.h1{
+    margin-top: 130px;
+    margin-left: 100px;
+    font-size: 60px;
+}
+.a2{
+    float: right;
+    text-decoration: none;
+    color: blue;
+    margin-right: 50px;
+    position: relative;
+    bottom: 35px;
+    font-size: 20px;
+}
+.container5{
+    display: flex;
+}
+.images1{
+ margin-left: 55px;
+ border-radius: 30px;
+}
+.images1:hover{
+    transform: scale(1.05);
+}
+.move{
+    margin-left: 100px;
+}
+.t9{
+    font-weight: bold;
+    color: rgb(231, 116, 50);
+    margin-left: 110px;
+}
+.t10{
+    margin-left: 60px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.t13{
+    color: rgb(95, 94, 94);
+    margin-left: 40px;
+}
+.t12{
+    font-weight: bold;
+    margin-left: 15px;
+}
+.b1{
+    margin: 15px;
+    padding: 15px;
+    width: 150px;
+    font-weight: bold;
+    border: 1px solid rgb(0, 113, 227);
+    background-color: rgb(0, 113, 227);
+    color: white;
+    border-radius: 50px;
+}
+.a4{
+    text-decoration: none;
+    color: rgb(0, 113, 227);
+}
+.a4:hover{
+    text-decoration: underline ;
+    color: rgb(0, 113, 227);
+}
+.move2{
+    margin-left: 530px;
+    position: relative;
+    bottom: 255px;
+}
+.move3{
+    margin-left: 930px;
+    position: relative;
+    bottom: 505px;
+}
+.h12{
+    position: relative;
+    bottom: 350px;
+    margin-left: 80px;
+    font-size: 60px;
+}
+.img4{
+    position: relative;
+    bottom: 300px;
+}
+.container6{
+    display: flex;
+}
+.box1{
+    width: 380px;
+    height: 550px;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 30px;
+    position: relative;
+    bottom: 300px;
+}
+.h4{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.a5{
+    position: relative;
+    bottom: 400px;
+    left: 1000px;
+    text-decoration: none;
+    color: rgb(0, 113, 227);
+}
+.a5:hover{
+    text-decoration: underline ;
+    color: rgb(0, 113, 227);
+}
+.h13{
+margin-top: 30px;
+    text-align: center;
+}
+.text14{
+    color: rgb(68, 68, 68);
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.images2{
+    position: relative;
+    bottom: 65px;
+    left: 320px;
+}
+.h14{
+    position: relative;
+    top: 2800px;
+     margin-left: 80px;
+    font-size: 60px;
+}
+
+.container7{
+    display: flex;
+    position: relative;
+    top: 2850px;
+}
+.box2{
+    margin-left: 60px;
+   border-radius: 30px;
+}
+.text15{
+ z-index: 2;
+    position: absolute;
+    top: 20px;
+    color: white;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.text16{ 
+z-index: 2;
+    position: absolute;
+    top: 20px;
+    color: white;
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 600;
+    letter-spacing: 0.007em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 25vw;
+}
+.images3{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    position: relative;
+    bottom: 60px;
+    left: 300px;
+}
+.h15{
+    position: relative;
+    top: 2900px;
+    margin-left: 80px;
+    font-size: 60px;
+}
+.container8{
+    display: flex;
+    position: relative;
+    top: 2950px;
+}
+.box3{
+    height: 600px;
+    width: 500px;
+    margin-left: 90px;
+    border-radius: 30px;
+    background-color:rgb(245, 245, 247) ;
+}
+.text17{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 70px;
+}
+.text18{
+    text-align: center;
+    color: rgb(77, 76, 76);
+    font-size: 20px;
+}
+.a6{
+    text-decoration: none;
+    color: rgb(0, 113, 227);
+    margin-left: 170px;
+    font-size: 20px;
+}
+.a6:hover{
+    text-decoration: underline ;
+    color: rgb(0, 113, 227);
+}
+.fotter{
+    background-color:rgb(245, 245, 247) ;
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    top: 3000px;
+}
+.dropdown1{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    list-style: none;
+    background-color:rgb(250, 250, 252) ;
+    width: 100%;
+    height: 500vh;
+}
+.i{
+    font-size: 70px;
+    font-weight: 800;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.text111{
+    margin-left: 100px;
+     color:rgb(100, 99, 99) ;
+     margin-top: 80px;
+     cursor: context-menu;
+     font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.textt{
+     margin-left: 100px;
+    font-weight: 800;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.text333{
+    position: relative;
+    bottom: 395px;
+     margin-left: 445px;
+     color:rgb(100, 99, 99) ;
+     margin-top: 30px;
+     cursor: context-menu;
+     font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.text222{
+    position: relative;
+    line-height:25px ;
+    bottom: 400px;
+    margin-left: 450px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 550;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.text555{
+    position: relative;
+    bottom: 565px;
+     margin-left: 650px;
+     color:rgb(100, 99, 99) ;
+     margin-top: 10px;
+     cursor: context-menu;
+     font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.text444{
+    position: relative;
+    line-height:25px ;
+    bottom: 570px;
+    margin-left: 650px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 550;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.text2222{
+    margin-left: 100px;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 25px;
+    cursor: pointer;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.fotter2{
+    background-color: rgb(245, 245, 247);
+    width: 100%;
+    height: 820vh;
+    position: relative;
+    top: 750px;
+}
+.b{
+    text-align: center;
+    color: gray;
+    margin: 100px;
+}
+hr{
+    position: relative;
+    bottom: 80px;
+    width: 83vw;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    height: 1px;
+    background: #d0d0d0;
+    opacity: 0.9;
+}
+.logo{
+    display: inline;
+    position: relative;
+    bottom: 50px;
+    margin-left: 90px;
+}
+.span{
+   position: relative;
+    bottom: 55px; 
+}
+.fotter3{
+    display: flex;
+    position: relative;
+    top: 150px;
+}
+.f1 ul li{
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 90px;
+    color: gray;
+}
+.f1 ul li b{
+    color: black;
+}
+.f1 ul li:hover{
+    text-decoration: underline;
+}
+.f2 ul li{
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 10px;
+    color: gray;
+}
+.f2 ul li:hover{
+    text-decoration: underline;
+}
+.f2 ul li b{
+    color: black;
+}
+.f3 ul li{
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 10px;
+    color: gray;
+}
+.f3 ul li b{
+    color: black;
+}
+.f3 ul li:hover{
+    text-decoration: underline;
+}
+.f4 ul li{
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 10px;
+    color: gray;
+}
+.f4 ul li b{
+    color: black;
+}
+.f5 ul li{
+    list-style: none;
+    margin-left: 65px;
+    margin-top: 10px;
+    color: gray;
+}
+.f4 ul li:hover{
+    text-decoration: underline;
+}
+.f5 ul li b{
+    color: black;
+}
+.f5 ul li:hover{
+    text-decoration: underline;
+}
+.l{
+    position: relative;
+    top: 200px;
+    margin-left: 90px;
+    color: grey;
+}
+    
